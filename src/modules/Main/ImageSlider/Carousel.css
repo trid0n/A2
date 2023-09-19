@@ -1,0 +1,42 @@
+.carousel-image {
+    width: 300px;
+    height: 220px;
+  }
+  
+  .image-slider {
+    position: relative;
+    width: 40%;
+    height: 50%;
+    margin: 60px auto; /* Adjust margin height as needed */
+    padding: 30px 80px;
+    border: 1px solid #000000; /* Fix the border style */
+    border-radius: 15px;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Center the content vertically */
+    position: relative; /* Relative positioning for absolute children */
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #ddd;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444;
+    cursor: pointer;
+  }
+  
+  .arrow.prev {
+    left: 3%; /* Adjust the left position */
+  }
+  
+  .arrow.next {
+    right: 7%; /* Adjust the right position */
+  }
+  
