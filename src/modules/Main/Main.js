@@ -1,5 +1,5 @@
 import React from 'react';
-import Carousel from './Carousel'; // You can create a Carousel component separately
+import Carousel from './ImageSlider/Carousel'; // You can create a Carousel component separately
 import ParagraphContainer from './ParagraphContainer'; // Create this component separately
 import AboutUs from './AboutUs'; // Create this component separately
 import Costs from './Costs'; // Create this component separately
