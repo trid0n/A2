@@ -6,7 +6,7 @@ function Navigation() {
     <div className='nav'>
             <section>
               <div className="nav-heading">
-                <h1><a href="#carousel">Home page</a></h1>
+                <h1><a href="#image-slider">Home page</a></h1>
               </div>
             </section>
             <section>

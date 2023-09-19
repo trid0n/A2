@@ -28,7 +28,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="image-slider">
+    <div id='image-slider' className="image-slider">
       <button className='arrow prev'onClick={prevSlide}>Previous</button>
        <img 
         className="carousel-image"
