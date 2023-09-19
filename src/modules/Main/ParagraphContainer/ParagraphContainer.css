@@ -1,0 +1,18 @@
+.paragraph-container {
+    display: flex;
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: black; 
+    background-color: #bceef3;
+    align-items: center;
+    margin: 100px;
+    font-family: Georgia, Utopia, Charter, serif;
+    font-size: 15px;
+    
+  }
+  
+  .paragraph-container p {
+    margin: 0; 
+    padding: 10px; 
+    border: 1px solid black; 
+  }
